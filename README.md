@@ -78,17 +78,11 @@ Record3D official website: [https://record3d.app](https://record3d.app)
 
 ## Usage
 
-### 1. Basic command
+### Basic command
 
 Provide your own dataset path using the `--data_path` argument:
 
-python record3d_to_open3d.py --data_path "/path/to/your/Record3D_capture/"
-
-### 3. Enable space carving
-
-Space carving can remove uncertain or empty regions during volumetric fusion:
-
-python record3d_to_open3d.py --data_path "/path/to/your/Record3D_capture/" --space_carving
+python meshing_pipeline.py --data_path "/path/to/your/Record3D_capture/"
 
 ---
 
@@ -96,7 +90,7 @@ python record3d_to_open3d.py --data_path "/path/to/your/Record3D_capture/" --spa
 
 | Argument          | Description                     | Default                                                                        |
 | ----------------- | ------------------------------- | ------------------------------------------------------------------------------ |
-| `--data_path`     | Path to Record3D dataset folder | `/home/hannes/Downloads/Robot_Record3D-20251004T153553Z-1-001/Robot_Record3D/` |
+| `--data_path`     | Path to Record3D dataset folder |  
 | `--width`         | Target processing width         | `192`                                                                          |
 | `--height`        | Target processing height        | `256`                                                                          |
 | `--max_depth`     | Maximum valid depth in meters   | `1.5`                                                                          |
