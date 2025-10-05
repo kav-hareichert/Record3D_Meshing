@@ -29,12 +29,12 @@ This project was tested with the following setup:
 | Library   | Version |
 | --------- | ------- |
 | Python    | 3.10+   |
-| Open3D    | 0.18.0  |
-| OpenCV    | 4.10.0  |
-| NumPy     | 1.26.4  |
+| Open3D    | 0.19.0  |
+| OpenCV    | 4.12.0  |
+| NumPy     | 1.22.4  |
 | SciPy     | 1.12.0  |
 | tqdm      | 4.66.4  |
-| vdbfusion | 0.3.0   |
+| vdbfusion | 0.1.6   |
 
 To install dependencies, run:
 
